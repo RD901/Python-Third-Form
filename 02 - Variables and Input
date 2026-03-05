@@ -6,3 +6,6 @@ TeamTwoScore = 0
 print("The game has now begun")
 print("The score is" ,TeamOneScore, TeamTwoScore)
 
+#task 2
+name = input("Enter your name: ") 
+print("Hello, " , name) 
