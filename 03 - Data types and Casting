@@ -1,0 +1,4 @@
+item = input("Enter name of item:")
+price = float(input("Enter price of item:"))
+discount_price = price*0.9
+print("the new price for",item,"is","£",discount_price)
