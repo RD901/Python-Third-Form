@@ -1,1 +1,4 @@
-
+code = "python"
+user = input("Enter the secret code: ")
+if user == code:
+    print("Access granted")
