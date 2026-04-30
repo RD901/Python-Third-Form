@@ -1,0 +1,13 @@
+import random
+number = random.randint(1,10)
+attempts = 0
+guess = ""
+
+while attempts < 5 and guess != number:
+  guess=int(input("Enter your guess:"))
+  attempts = attempts + 1
+if guess == number:
+  print("Yay! Correct Guess ")
+else:
+ 
+  print("You are out of attempts")
