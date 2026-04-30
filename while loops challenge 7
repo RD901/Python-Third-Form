@@ -1,0 +1,12 @@
+timesTable = 1
+UserChoice = int(input("Enter a times-table: "))
+
+while timesTable < 13:
+
+ print(timesTable ,"x", UserChoice, "=", UserChoice*timesTable)
+ timesTable = timesTable + 1
+print("showing the",UserChoice,"times table")
+
+    
+
+    
